@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class collisionHandler : MonoBehaviour
 {
@@ -13,9 +14,15 @@ public class collisionHandler : MonoBehaviour
                 Debug.Log("Mission Acoplish");
                 break;
             default:
-                Debug.Log("you hit a obstacle");
+                ReloadLevel();
                 break;
        }
         
+    }
+
+    void ReloadLevel()
+    {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(sceneIndex);
     }
 }
