@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1013763430}
   - component: {fileID: 1013763429}
   - component: {fileID: 2103230249}
+  - component: {fileID: 2103230256}
   m_Layer: 0
   m_Name: Roket
   m_TagString: Player
@@ -224,3 +225,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2103230256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720151415505681512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87dd06aea10026f4ab7d2306871c3b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
